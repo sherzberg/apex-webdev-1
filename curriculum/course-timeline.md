@@ -16,7 +16,7 @@
 
 0. What is a webserver
 0. Request / Response lifecycle
-0. HTML Structure
+0. DOM Structure
 0. HTML tags
 
 ## Dynamic Web Pages
@@ -28,8 +28,11 @@
 
 ## Dynamic Pages with Javascript
 
+1 week
+
 0. Into to Javascript
-0. Changing page content with Javascript
+0. Collecting input from the user
+0. Interacting with the DOM
 
 ## Databases
 
