@@ -31,6 +31,21 @@
 0. Into to Javascript
 0. Changing page content with Javascript
 
+## Databases
+
+1 week
+
+0. Database intro
+0. Create a table
+0. Add/Retrieve data
+
+## Web Programming with Databases
+
+1 week
+
+0. Showing data from the database
+0. Adding data via forms
+
 ## Styling Webpages
 
 1 week
@@ -39,15 +54,6 @@
 0. In-line styles
 0. External styles
 0. CSS selectors
-
-## Databases
-
-1 week
-
-0. Database intro
-0. Create a table
-0. Insert data
-0. Query a table
 
 ## Setting up a Server
 
