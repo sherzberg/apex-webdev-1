@@ -9,7 +9,7 @@
 * Demonstrate Database programming
 * Basic understanding of setting up a server
 
-## Prerequisits
+## Prerequisites
 
 * A Waukee Issued Mac
 * Curiousity
