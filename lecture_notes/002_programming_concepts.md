@@ -75,8 +75,90 @@ Here are some very common types we will use:
 Operators/methods/functions are the "things" you do to/with types. For another math
 example, the `+` operator says you should add two numbers together.
 
-## Logic Operators
+## Boolean Algebra
+
+Boolean algrebra relates to `truthy values` used in algebra. True and False in combinations
+make up the boolean algebra notation.
+
+There are three operations:
+
+ - conjuction (and)
+ - disjunction (or)
+ - negation (not)
+
+Some examples:
+
+ - (true and false and true) == false.
+ - (true or false or true) == true.
+
+PHP examples:
+
+```php
+echo var_dump(true);
+echo var_dump(false);
+echo var_dump(false or true);
+$first = false;
+$second = true;
+echo var_dump($first and $second);
+```
+
+This is useful, but what if we need to do something based on the result of
+boolean algebra?
+
+This is done with something called conditional statements. These come in many
+forms in programming languages.
+
+The common ones are:
+
+ - if
+ - else if
+ - else
+
+PHP examples:
+```php
+if (true and true) {
+    echo "It is true!";
+}
+
+if (false) {
+    echo "Nope!";
+} else {
+    echo "Yes!";
+}
+
+if (false) {
+    echo "No"
+} else if (true) {
+    echo "Yes";
+} else {
+    echo "no";
+}
+```
 
 ## Iteration
+
+We have talked about array data types (lists of elements). What if we need to
+do something with each item in the array? This is called Iteration or Looping in computer
+science.
+
+PHP examples:
+
+```php
+$myarray = [0, 1, 2, 3, 4];
+
+foreach ($myarray as $item) {
+    echo $item;
+}
+```
+
+We iterated or looped over the array to print out each one.
+
+Another type of iteration is with a counter:
+
+```php
+for ($i=0; $i<10; $i++) {
+    echo $i;
+}
+```
 
 ## Functions
