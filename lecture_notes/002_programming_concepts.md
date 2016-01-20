@@ -162,3 +162,26 @@ for ($i=0; $i<10; $i++) {
 ```
 
 ## Functions
+
+Functions can be thought of a reusable blocks of code. They take inputs and provide outputs.
+
+For example the `add` function can take two numbers and returns a single number.
+
+PHP examples:
+
+To declare a function we can simply use the `function` keyword:
+
+```php
+function add($first, $second) {
+    return $first + $second;
+}
+```
+
+To use it, it is equaly simple:
+
+```php
+echo add(5, 8);
+
+$myVariable = 1;
+echo add($myVariable, 9);
+```
